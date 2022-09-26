@@ -10,6 +10,7 @@ def send_random_cat():
     bot.send_photo(chat_id, url)
 
 
+
 def main() -> None:
     send_random_cat()
     print('Cat has been sent')
