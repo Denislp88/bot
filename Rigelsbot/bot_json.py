@@ -1,6 +1,10 @@
+
 import json
 from telegram import Update
 from telegram.ext import Updater, CallbackContext, TypeHandler
+
+
+
 
 
 def echo(update: Update, context: CallbackContext) -> None:
@@ -22,3 +26,5 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+
+bot.polling(none_stop=True)
