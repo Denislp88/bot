@@ -2,7 +2,7 @@ import time
 from telegram import Bot
 
 chat_id = 141929465 #замените на свое значение, подробнее ниже
-bot = Bot("5402596551:AAGguUw_3pWadyA8nxVVpiG24vUcpAv_Ezo")
+bot = Bot("5448621471:AAFJQxh9U1RWL21y2QT9utQB2h4QdZkiK-c")
 
 
 def send_random_cat():
