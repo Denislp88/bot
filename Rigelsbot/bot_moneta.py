@@ -49,7 +49,7 @@ def new_random_number(update: Update, context: CallbackContext) -> None:
 
 
 def main() -> None:
-    updater = Updater("5402596551:AAGguUw_3pWadyA8nxVVpiG24vUcpAv_Ezo")
+    updater = Updater("5448621471:AAFJQxh9U1RWL21y2QT9utQB2h4QdZkiK-c")
 
     updater.dispatcher.add_handler(CallbackQueryHandler(flip_a_coin_again, pattern='^flip_a_coin_again'))
     updater.dispatcher.add_handler(CallbackQueryHandler(new_random_number, pattern='^new_random_number'))

@@ -13,7 +13,7 @@ def echo(update: Update, context: CallbackContext) -> None:
 
 
 def main() -> None:
-    updater = Updater("5402596551:AAGguUw_3pWadyA8nxVVpiG24vUcpAv_Ezo")
+    updater = Updater("5448621471:AAFJQxh9U1RWL21y2QT9utQB2h4QdZkiK-c")
 
     updater.dispatcher.add_handler(TypeHandler(Update, echo))
 
